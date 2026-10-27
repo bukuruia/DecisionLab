@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (par défaut on ignore tout)
+data/*
+
+# ...mais on versionne les snapshots du cours
+!data/snapshots/
+!data/snapshots/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Kit enseignant conservé dans le dépôt privé ai-course.
+/usecase/DecisionLab_01_Zillow/
